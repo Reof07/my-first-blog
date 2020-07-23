@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'hoecwezg$j@o%7)jz6fi%y=v46q)c5g898t1%53t9-3ri)tnw4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 '''
 Cuando DEBUG es True y ALLOWED_HOST esta vacío, el host es validado
