@@ -61,7 +61,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['./templates',],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -128,3 +128,6 @@ STATIC_URL = '/static/'
 
 # ruta para archivos estáticos.
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+#
+LOGIN_REDIRECT_URL = '/'
